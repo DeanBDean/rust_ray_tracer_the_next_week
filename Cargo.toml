@@ -1,0 +1,18 @@
+[package]
+name = "rust_ray_tracer_the_next_week"
+version = "0.1.0"
+authors = ["Jesse Welnick <jesse.welnick@gmail.com>"]
+edition = "2018"
+description = "This is an implementation of Ray Tracer in One Weekend in Rust instead of C++."
+license = "mit"
+repository = "git@github.com:DeanBDean/rust_ray_tracer_in_one_weekend.git"
+keywords = ["ray tracing", "graphics"]
+categories = ["ray tracing", "graphics"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dyn-clone = "1.0"
+fastrand = "1.4"
+itertools = "0.10"
+try_from_integers = { path = "./src/try_from_integers" }
